@@ -1,0 +1,119 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  font-size: 62.5%;
+}
+
+body {
+  line-height: 1;
+  padding: 32px;
+  font-family: "Poppins", sans-serif;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  outline: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  width: 97.9rem;
+  margin: 0 auto;
+}
+
+.wapper {
+  background-color: #daefff;
+  border-radius: 10px;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3.8rem;
+  margin-bottom: 16rem;
+}
+.header-top-left > img {
+  width: 180px;
+  height: 30px;
+}
+.header-top-right > ul {
+  display: flex;
+  gap: 50px;
+}
+.header-top-right > ul > li {
+  list-style-type: none;
+  font-size: 1.6rem;
+}
+.header-bottom {
+  display: flex;
+  gap: 127px;
+}
+.header-bottom-heading > h1 {
+  font-size: 5.6rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+.header-bottom-banner {
+  position: relative;
+  width: 61rem;
+  transform: translateY(10%);
+}
+.header-bottom-banner::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+.header-bottom-banner > img {
+  width: 39rem;
+  height: 49.4rem;
+  object-fit: cover;
+  object-position: left;
+  border-radius: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
